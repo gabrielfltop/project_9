@@ -1,0 +1,489 @@
+:root {
+    --pageBg: #0C0C0C;
+    --title: #F9F9F9;
+    --text: #828282;
+    --border: #333333;
+    --bg: #212121;
+    --white: #F9F9F9;
+    --black: #171717;
+    --green: #00DF5E;
+}
+
+body {
+    background-color: var(--pageBg);
+    font-family: 'DM Sans';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu {
+    display: none;
+}
+
+header {
+    padding: 35px 150px;
+    height: 400px;
+    width: 100%;
+    max-width: 1146px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.headerTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.siteName {
+    color: var(--title);
+    font-weight: 700;
+    font-size: 26px;
+}
+
+nav {
+    width: 467px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navLink {
+    color: var(--title);
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.headerBottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerBottom h1 {
+    color: var(--title);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+    width: 300px;
+}
+
+.headerBottom h2 {
+    color: var(--text);
+    font-weight: 500;
+    font-size: 18px;
+    margin: 18px 0 35px;
+}
+
+.bns {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerBottom button {
+    padding: 12px 18px;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: 'DM Sans';
+}
+
+.bnDownload {
+    border: none;
+    background-color: var(--green);
+    color: var(--black);
+}
+
+.bnContact {
+    border: 1px solid var(--border);
+    background-color: var(--black);
+    color: var(--white);
+}
+
+main {
+    margin-top: 61px;
+    margin-bottom: 121.5px;
+}
+
+.section {
+    padding: 63.5px 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sectionTitle {
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    color: var(--title);
+    margin-bottom: 30px;
+}
+
+.aboutMeText {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 85px;
+    text-align: center;
+    color: var(--text);
+    max-width: 745px;
+}
+
+.infoAboutMe {
+    display: flex;
+    justify-content: space-between;
+    width: 842px;
+}
+
+.infoMe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image {
+    width: 62px;
+    height: 62px;
+    background-color: var(--bg);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.infoTitle {
+    font-weight: 700;
+    font-size: 18px;
+    margin: 19px 0 5px;
+    color: var(--title);
+}
+
+.infoContent {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--text);
+}
+
+.projectList {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1146px;
+    width: 100%;
+    min-height: 502px;
+}
+
+.project {
+    width: 300px;
+    padding: 20px 25px;
+    background-color: var(--bg);
+    border: 1px solid var(--border);
+}
+
+.photo {
+    width: 300px;
+    height: 130px;
+    background-color: var(--black);
+    border: 1px solid var(--border);
+}
+
+.projectTitle {
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--title);
+    margin: 23px 0 6px;
+}
+
+.projectInfo {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--text);
+}
+
+.serviceList {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1146px;
+    width: 100%;
+}
+
+.service {
+    width: 288px;
+    height: 179px;
+    padding: 30px 30px 25px;
+    background-color: var(--bg);
+    border: 1px solid var(--border);
+    border-bottom: 5px solid var(--green);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.serviceName {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    color: var(--text);
+    width: 126px;
+}
+
+.skillList {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill {
+    width: 150px;
+    height: 150px;
+    background-color: var(--bg);
+    border: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 25.5px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: var(--bg);
+}
+
+footer h1 {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--white);
+}
+
+footer span {
+    font-weight: 700;
+    color: var(--green);
+}
+
+@media(max-width: 768px) {
+    .spaceman {
+        display: none;
+    }
+
+    .menu {
+        display: initial;
+    }
+
+    header {
+        padding: 24px;
+        height: 217px;
+        width: 312px;
+        max-width: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .headerTop {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .siteName {
+        font-size: 14px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .headerBottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .headerBottom h1 {
+        font-size: 23px;
+        width: initial;
+    }
+    
+    .headerBottom h2 {
+        font-size: 16px;
+        line-height: 21px;
+        margin: 8px 0 32px;
+        width: 198px;
+        text-align: center;
+    }
+
+    .aboutMe {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .bns {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .headerBottom button {
+        padding: initial;
+        font-size: 9.79021px;
+        width: 150px;
+        height: 30px;
+    }
+
+    main {
+        margin-top: 28px;
+        margin-bottom: 28px;
+    }
+    
+    .section {
+        padding: 28px 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .sectionTitle {
+        font-size: 24px;
+        margin-bottom: 14px;
+    }
+    
+    .aboutMeText {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 56px;
+        text-align: center;
+        width: 312px;
+    }
+
+    .infoAboutMe {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: space-between;
+        width: 306px;
+        height: 237px;
+    }
+    
+    .infoMe {
+        width: 150px;
+    }
+
+    .image {
+        width: 45.98px;
+        height: 45.98px;
+    }
+
+    .image img {
+        width: 20px;
+        height: auto;
+    }
+    
+    .infoTitle {
+        font-size: 13.348px;
+        margin: 14.09px 0 3.76px;
+    }
+    
+    .infoContent {
+        font-size: 11.8649px;
+    }
+
+    .projectList {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: initial;
+        flex-wrap: nowrap;
+        align-items: center;
+        max-width: 1146px;
+        height: 1164px;
+    }
+    
+    .project {
+        width: 275px;
+        height: 141px;
+        padding: 16.5px 18.5px;
+    }
+    
+    .photo {
+        width: 275px;
+        height: 100px;
+    }
+    
+    .projectTitle {
+        font-size: 13.05px;
+        margin: 7.5px 0 4.03px;
+    }
+    
+    .projectInfo {
+        font-size: 10.15px;
+    }
+
+    .serviceList {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+        height: 468px;
+    }
+    
+    .service {
+        width: 312px;
+        height: 70px;
+        padding: 35px 0;
+        border: none;
+        border-bottom: 3px solid var(--green);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .serviceName {
+        font-size: 14px;
+        width: initial;
+    }
+
+    .service img {
+        width: 40px;
+        height: auto;
+    }
+
+    .skillList {
+        display: flex;
+    }
+    
+    .skill {
+        width: 90px;
+        height: 90px;
+        margin: 0 10.5px;
+    }
+
+    .skill img {
+        width: 42.33px;
+        height: auto;
+    }
+    
+    footer {
+        height: 40px;
+    }
+    
+    footer h1 {
+        font-weight: 400;
+        font-size: 12px;
+    }
+    
+    footer span {
+        font-weight: 700;
+    }
+}
